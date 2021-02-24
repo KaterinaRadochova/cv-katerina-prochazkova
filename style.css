@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color:#000;
+    background-color: #fff;
+}
+section{
+    padding: 65px 15%;
+    overflow: auto;
+} 
+
+.hlavicka {
+    background-image: url(images/bg.svg);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1, 
+h2 
+{
+   font-family: 'Titillium Web', sans-serif;
+   text-align: center;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 145px;
+    line-height:0.8;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 38px;
+   }
+
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.czechitas {
+    font-size: 111px;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width: 1px;
+
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    box-shadow: 10px 10px 25px rgb(209, 209, 209);
+    }
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus, 
+.menu a:active {
+    background-color: #000000;
+    color:#baf7a2;;
+    box-shadow: 0 0 25px #baf7a2;
+    transition: 0.5s;
+
+}
+
+.foto-soucastnost {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin: 0px 30px 30px 0px;
+    box-shadow: 3px 3px 25px #d0f1c3;
+}
+
+.flex-container {
+    display: flex; 
+}
+
+.flex-container > div {
+     width: 45%;
+  }
+
+
+ul.fa-ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.fa-ul i{
+    color:#baf7a2;
+    padding-right: 20px;
+    }
+
+.fa-ul a{
+    color:#000000;
+    text-decoration: none;
+    font-weight: 700;
+        }
+
+.fa-ul a:hover{
+    color: #baf7a2;
+    background-color: black;
+    font-weight: 700;
+    padding: 0 15px;
+    transition: 0.5s;
+    }   
+    
+.transport,
+.tabulka {
+ background-color:#EBFFE3 ;
+
+}
+
+.moje-prace-design {
+    float: right;
+    width: 50%;
+    margin: 0 0 20px 30px;
+
+}
+
+.moje-prace-denik{
+    float: left;
+    width: 50%;
+    margin: 0 30px 20px 0;
+}
+
+.e-shop {
+    color: black;
+    padding: 3px;
+    }
+    .e-shop:hover { 
+        color: #baf7a2;
+        background-color: black;
+        transition: 0.5s;
+        padding: 3px;
+        text-decoration: none;
+    }
+
+
+.g-yt {
+    background-image: url(images/bg-g-yt.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.g-yt p,
+.konicky p,
+.tabulka p {
+    text-align: center;
+}
+
+.konicky img {
+    width: 32%;
+    filter: grayscale(100%);
+    box-shadow: 0 0 25px #baf7a2;
+    
+}
+
+.konicky img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.tabulka {
+    padding-bottom: 0;
+}
+
+table {
+    margin-left: auto; 
+    margin-right: auto;
+    border-spacing: 0;
+}
+
+th, 
+td {
+    text-align: left;
+    border-bottom: 1px solid #000000;
+    padding: 10px 15px;
+} 
+.cas {
+text-align: right;
+padding-left: 380px;
+}
+
+tr:nth-child(even) {
+    background-color:#baf7a21c;
+    }
+
+.celkovy-cas {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+.soc-site {
+    background-image: url(images/bg-footer.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.soc {
+    text-align: center;
+}
+.soc i {
+    font-size: 48px;
+    color: black;
+    margin: 5px;
+}
+
+.soc i:hover {
+    box-shadow: 0 0 25px #baf7a2;
+        
+}
+
+.paticka {
+    text-align: center;
+    padding: 20px 15%;
+    color: #EBFFE3;
+    background-color: black;
+}
+.paticka i {
+    padding-right: 10px;
+    color: #EBFFE3;
+}
+
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f8f8f8;
+	
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #baf7a2; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #000000; 
+  }
