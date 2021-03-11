@@ -6,6 +6,7 @@ body {
     color:#000;
     background-color: #fff;
 }
+
 section{
     padding: 65px 15%;
     overflow: auto;
@@ -24,7 +25,6 @@ h2
 {
    font-family: 'Titillium Web', sans-serif;
    text-align: center;
-
 }
 
 h1{
@@ -38,18 +38,18 @@ h1{
 
 h2{
     font-size: 38px;
-   }
+}
 
 h3{
     font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
     font-weight: 700;
 }
+
 .czechitas {
     font-size: 111px;
     -webkit-text-fill-color:transparent;
     -webkit-text-stroke-width: 1px;
-
 }
 
 .menu{
@@ -57,8 +57,8 @@ h3{
     padding: 0;
     text-align: center;
     background-color: #f8f8f8;
-    box-shadow: 10px 10px 25px rgb(209, 209, 209);
-    }
+    box-shadow: 10px 10px 25px #d1d1d1;
+}
 
 .menu li {
     display: inline-block;
@@ -66,7 +66,7 @@ h3{
 
 .menu a {
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: #000;
     font-weight: 700;
     text-decoration: none;
     padding: 20px 30px;
@@ -75,11 +75,10 @@ h3{
 .menu a:hover,
 .menu a:focus, 
 .menu a:active {
-    background-color: #000000;
+    background-color: #000;
     color:#baf7a2;;
     box-shadow: 0 0 25px #baf7a2;
     transition: 0.5s;
-
 }
 
 .foto-soucastnost {
@@ -95,9 +94,8 @@ h3{
 }
 
 .flex-container > div {
-     width: 45%;
-  }
-
+    width: 45%;
+}
 
 ul.fa-ul {
     list-style-type: none;
@@ -107,33 +105,31 @@ ul.fa-ul {
 .fa-ul i{
     color:#baf7a2;
     padding-right: 20px;
-    }
+}
 
 .fa-ul a{
-    color:#000000;
+    color:#000;
     text-decoration: none;
     font-weight: 700;
-        }
+}
 
 .fa-ul a:hover{
     color: #baf7a2;
-    background-color: black;
+    background-color: #000;
     font-weight: 700;
     padding: 0 15px;
     transition: 0.5s;
-    }   
+}   
     
 .transport,
 .tabulka {
- background-color:#EBFFE3 ;
-
+    background-color:#ebffe3 ;
 }
 
 .moje-prace-design {
     float: right;
     width: 50%;
     margin: 0 0 20px 30px;
-
 }
 
 .moje-prace-denik{
@@ -143,17 +139,16 @@ ul.fa-ul {
 }
 
 .e-shop {
-    color: black;
+    color: #000;
     padding: 3px;
-    }
+}
     .e-shop:hover { 
         color: #baf7a2;
-        background-color: black;
+        background-color: #000;
         transition: 0.5s;
         padding: 3px;
         text-decoration: none;
     }
-
 
 .g-yt {
     background-image: url(images/bg-g-yt.svg);
@@ -172,7 +167,6 @@ ul.fa-ul {
     width: 32%;
     filter: grayscale(100%);
     box-shadow: 0 0 25px #baf7a2;
-    
 }
 
 .konicky img:hover {
@@ -193,17 +187,18 @@ table {
 th, 
 td {
     text-align: left;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #000;
     padding: 10px 15px;
 } 
+
 .cas {
-text-align: right;
-padding-left: 380px;
+    text-align: right;
+    padding-left: 380px;
 }
 
 tr:nth-child(even) {
     background-color:#baf7a21c;
-    }
+}
 
 .celkovy-cas {
     font-family: 'Titillium Web', sans-serif;
@@ -220,9 +215,10 @@ tr:nth-child(even) {
 .soc {
     text-align: center;
 }
+
 .soc i {
     font-size: 48px;
-    color: black;
+    color: #000;
     margin: 5px;
 }
 
@@ -234,12 +230,13 @@ tr:nth-child(even) {
 .paticka {
     text-align: center;
     padding: 20px 15%;
-    color: #EBFFE3;
-    background-color: black;
+    color: #ebffe3;
+    background-color: #000;
 }
+
 .paticka i {
     padding-right: 10px;
-    color: #EBFFE3;
+    color: #ebffe3;
 }
 
 
@@ -263,5 +260,5 @@ tr:nth-child(even) {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background: #000000; 
+	background: #000; 
   }
